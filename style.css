@@ -1,0 +1,182 @@
+
+*{
+padding: 0;
+margin: 0;
+list-style: none;
+box-sizing: border-box;
+text-decoration: none;
+
+
+}
+
+body{
+
+  width: 100vw;
+  height: 100vw;
+  background-image: linear-gradient(rgb(26, 224, 224), rgb(126, 121, 121));
+}
+
+nav{
+  background-color: rgb(93, 15, 218);
+  height: 80px;
+  width: 100%;
+
+}
+label.logo{
+
+  color: aliceblue;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0px 100px; 
+
+font-weight: bold;
+}
+nav ul {
+
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+
+  line-height: 80px;
+  display: inline-block;
+  margin: 0px 5px;
+
+}
+  nav ul li a {
+
+    color: aliceblue;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+  }
+
+   a:hover{
+    background: white;
+    color: black;
+    transition: .5s;
+
+  }
+.Search{
+
+  border-radius: 3px;
+  padding-left: 0px;
+  background-color: aliceblue;
+  width: 10%;
+  margin-left: 10px;
+}
+
+
+.Buttons{
+
+  background-color:transparent;
+  color: white;
+  display: inline-block;
+  margin-top: 50%;
+  height: 200px;
+  padding: 5px;
+  margin-left: 1px;
+  width: 100%;
+  align-items: center;
+
+}
+.Web {
+
+  border-radius: 5px;
+  border-width: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+
+}
+
+.Web:hover{
+  color: white;
+  background-color: plum;
+  font: italic;
+}
+
+.Web:active{
+
+color: black;
+background-color: aquamarine;
+}
+
+
+.marketing{
+
+  border-radius: 5px;
+  border-width: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+
+
+}
+
+.marketing:hover{
+  color: white;
+  background-color: plum;
+  font: italic;
+}
+
+.marketing:active{
+
+color: black;
+background-color: aquamarine;
+}
+
+
+.Agric {
+
+  border-radius: 5px;
+  border-width: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+
+}
+
+.Agric:hover{
+  color: white;
+  background-color: plum;
+  font: italic;
+}
+
+.Agric:active{
+
+color: black;
+background-color: aquamarine;
+}
+
+
+.Space {
+
+  border-radius: 5px;
+  border-width: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+
+
+}
+
+.Space:hover{
+  color: white;
+  background-color: plum;
+  font: italic;
+}
+
+.Space:active{
+
+color: black;
+background-color: aquamarine;
+}
